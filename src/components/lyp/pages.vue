@@ -202,6 +202,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+*{
+  overflow-x: hidden;
+}
 #writeRemote {
   position:fixed;
   left:auto;
@@ -419,6 +422,7 @@ export default {
     text-align: left;
     flex-grow: 1;
     width: 0.5rem;
+    padding-right: 15px;
     font-family: PingFang SC;
     font-style: normal;
     .comment-author-name {
@@ -434,7 +438,7 @@ export default {
       font-size: 14px;
       line-height: 18px;
       color: #95A4B3;
-
+      border-bottom: 1px solid #E9EAEB;
     }
   }
 }
